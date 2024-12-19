@@ -20,3 +20,21 @@ WHERE TIMESTAMPDIFF(YEAR,`date_of_birth`, CURDATE()) > 30
 SELECT * FROM `courses`
 WHERE `period`= 'I semestre'  AND `year` = '1'
 ```
+
+5.
+```SQL
+SELECT * FROM `exams`
+WHERE HOUR(`hour`) >= 14 AND `date` = '2020-06-20'
+```
+
+6.
+```SQL
+SELECT * FROM `degrees`
+WHERE `level` = 'magistrale'
+```
+
+7.
+```SQL
+SELECT COUNT(*) AS number FROM `departments` 
+```
+
