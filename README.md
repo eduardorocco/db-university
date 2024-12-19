@@ -70,3 +70,9 @@ INSERT INTO `students` (
 UPDATE `teachers` SET `office_number` = '126'
 WHERE `id` = '58' AND `name` = 'Pietro' AND `surname` = 'Rizzo' 
 ```
+
+11.
+```SQL
+DELETE FROM `students` 
+WHERE `id` = '5001' AND `name` = 'Eduardo' AND `surname` = 'Rocco'
+```
